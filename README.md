@@ -2,12 +2,15 @@
 
 https://frontendmastery.com/posts/the-new-wave-of-react-state-management/
 https://goshacmd.com/redux-vs-mobx-vs-flux-etoomanychoices/
+https://www.freecodecamp.org/news/how-to-use-flux-in-react-example/
 
 # LOCAL STATE MANAGEMENT
 
 - useState, useReducer
 
 # REDUX
+https://redux.js.org/tutorials/essentials/part-1-overview-concepts#when-should-i-use-redux
+
 - "By increasing the predictablity of your state, you decrease the amount of bugs in your application"
 https://ui.dev/c/redux/what-is-the-redux-store
 
