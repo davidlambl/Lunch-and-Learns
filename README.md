@@ -1,10 +1,7 @@
 # React-State-Management-Lunch-and-Learn
-
-https://frontendmastery.com/posts/the-new-wave-of-react-state-management/
-https://goshacmd.com/redux-vs-mobx-vs-flux-etoomanychoices/
-https://www.freecodecamp.org/news/how-to-use-flux-in-react-example/
-
 ## Intro
+https://frontendmastery.com/posts/the-new-wave-of-react-state-management/
+https://dev.to/workshub/state-management-battle-in-react-2021-hooks-redux-and-recoil-2am0
 
 - "The general advice is to only reach for global state management solutions when needed."
 - Tradeoffs
@@ -35,11 +32,14 @@ The problems global state management libraries need to solve:
 - For very large frontend applications, not managing memory properly can silently lead to issues at scale.
 - Hooking into the React lifecycle to store state means it’s easier to take advantage of automatic garbage collection when the component unmounts.For libraries like Redux that promote the pattern of a single global store, you will need to manage this yourself.
 ## Local State Management
+https://react.dev/learn/managing-state
 
 - useState, useReducer
 
 ## Redux
 https://redux.js.org/tutorials/essentials/part-1-overview-concepts#when-should-i-use-redux
+https://goshacmd.com/redux-vs-mobx-vs-flux-etoomanychoices/
+https://www.freecodecamp.org/news/how-to-use-flux-in-react-example/
 
 - "By increasing the predictablity of your state, you decrease the amount of bugs in your application"
 https://ui.dev/c/redux/what-is-the-redux-store
