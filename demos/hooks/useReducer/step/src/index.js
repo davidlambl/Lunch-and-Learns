@@ -3,6 +3,7 @@ import ReactDOM from "react-dom";
 import Slider from './Slider'
 import "./styles.css";
 
+// any new pieces of state that our reducer needs to manage can go as a property on the object
 function reducer(state, action) {
   if (action.type === 'increment') {
     return {
@@ -36,7 +37,7 @@ function Counter() {
   )
 
   return (
-    <React.Fragment>
+    <>
       <Slider onChange={(value) => dispatch({
         type: 'updateStep',
         step: value
@@ -58,7 +59,7 @@ function Counter() {
       })}>
         Reset
       </button>
-    </React.Fragment>
+    </>
   )
 }
 

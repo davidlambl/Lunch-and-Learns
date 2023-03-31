@@ -2,6 +2,8 @@ import React from "react";
 import ReactDOM from "react-dom";
 import "./styles.css";
 
+// What if instead of dispatching the value directly, we dispatch the type of action that occurred? 
+// That way, based on the type of action, our reducer can decide how to update the state.
 function reducer(state, action) {
   if (action === 'increment') {
     return state + 1
@@ -21,7 +23,7 @@ function Counter() {
   )
 
   return (
-    <React.Fragment>
+    <>
       <h1>{count}</h1>
       <button onClick={() => dispatch('increment')}>
         +
@@ -32,7 +34,7 @@ function Counter() {
       <button onClick={() => dispatch('reset')}>
         Reset
       </button>
-    </React.Fragment>
+    </>
   );
 }
 
