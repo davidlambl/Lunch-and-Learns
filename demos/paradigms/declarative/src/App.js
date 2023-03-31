@@ -29,7 +29,7 @@ export default function Form() {
     <>
       <h2>City quiz</h2>
       <p>
-        In which city is there a billboard that turns air into drinkable water?
+        What city is located on two continents?
       </p>
       <form onSubmit={handleSubmit}>
         <textarea
@@ -58,7 +58,7 @@ function submitForm(answer) {
   // Pretend it's hitting the network.
   return new Promise((resolve, reject) => {
     setTimeout(() => {
-      let shouldError = answer.toLowerCase() !== 'lima'
+      let shouldError = answer.toLowerCase() !== 'istanbul'
       if (shouldError) {
         reject(new Error('Good guess but a wrong answer. Try again!'));
       } else {
